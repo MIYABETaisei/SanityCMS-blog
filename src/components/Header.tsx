@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { FC } from "react";
 
-const Header = () => {
+const Header: FC = () => {
   return (
     <header className="shadow-md shadow-black-500/40">
       <div className="flex justify-between p-5 max-w-7xl mx-auto">
